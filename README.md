@@ -16,3 +16,15 @@ The configuration utilized for this code is as follows:
 - torchvision==0.13.0+cu113
 - nerfacc==0.3.5 (with the proper CUDA version set)
 - wandb==0.16.0
+
+### Setting Up the Virtual Environment
+
+First, create a virtual environment for installing necessary libraries and dependancies. This procedure can be directly done via python's API, following the procedure below:
+```
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+```
+
+Or alternatively, in case you want to need your virtual environment operate a specific version of python compatible with `pycarus`, you can make the virtual environment via conda (by either having conda or miniconda installed) as follows:
+```
+$ conda create -n env-name python=3.8.18
