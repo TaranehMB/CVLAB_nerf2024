@@ -7,3 +7,12 @@ In the following sections, I will provide a step-by-step guide for utilizing thi
 ## Setup
 
 The setup necessary for running the codes within this repository, follows the same procedure found in [CVlab official **nf2vec** repository](https://github.com/CVLAB-Unibo/nf2vec).
+
+### Machine Configuration
+
+The configuration utilized for this code is as follows:
+- python==3.8.18
+- torch==1.12.0+cu113
+- torchvision==0.13.0+cu113
+- nerfacc==0.3.5 (with the proper CUDA version set)
+- wandb==0.16.0
