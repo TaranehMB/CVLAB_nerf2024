@@ -1,1 +1,1 @@
-#Visualizing NeRFs
+# Visualizing NeRFs
