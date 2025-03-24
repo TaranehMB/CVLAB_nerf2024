@@ -25,6 +25,14 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 ```
 
-Or alternatively, in case you want to need your virtual environment operate a specific version of python compatible with `pycarus`, you can make the virtual environment via conda (by either having conda or miniconda installed) as follows:
+Or alternatively, in case you want to need your virtual environment operate a specific version of python compatible with the following libraries and dependancies, you can make the virtual environment via conda (by either having conda or miniconda installed) as follows:
 ```
 $ conda create -n env-name python=3.8.18
+
+```
+### Installing Dependencies
+
+By following the commands step-by-step, the environment necessary for excecuting the codes within this repository. It is a given that you already have your virtual environment with python 3.8.18 and pip ready to go. 
+
+1. Install PyTorch and Torchvision:
+`pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113`
