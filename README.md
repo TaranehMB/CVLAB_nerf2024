@@ -65,4 +65,9 @@ conda install -c anaconda h5py
 ```
 pip install torchmetrics
 ```
+## Visualizing NeRFs
+The code provided here for visualizing NeRFs, called `nerf_viz` is capable of visualizing the dataset provided within `shapenet_render` folder available on the repository. The two other utility codes are necessary for running the code to get the video output. 
 
+The code is capable of generating novel views of the object contained in each seperate folder, assigend to a different shape, doing a 360 degrees camera turn around the object and concatenating these frames to produce a video, producing both a `.gif` and `.mp4` output. 
+
+The results of the code applied to each NeRF is already present within each folder. 
