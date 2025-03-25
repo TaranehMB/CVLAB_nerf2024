@@ -41,5 +41,32 @@ pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 --extra-index-url http
 ```
 conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
 ```
-
+3. Install Ninja and Tiny CUDA NN:
+```
+pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+```
+4. Install NerfAcc:
+```
+pip install nerfacc==0.3.5 -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/torch-1.12.0_cu113.html
+```
+5. Install Einops:
+```
+conda install -c conda-forge einops
+```
+6. Install ImageIO:
+```
+conda install -c conda-forge imageio
+```
+7. Install WanDB:
+```
+pip install wandb==0.16.0
+```
+8. Install h5py:
+```
+conda install -c anaconda h5py
+```
+9. Install TorchMetrics:
+```
+pip install torchmetrics
+```
 
