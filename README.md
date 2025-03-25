@@ -57,15 +57,11 @@ conda install -c conda-forge einops
 ```
 conda install -c conda-forge imageio
 ```
-7. Install WanDB:
-```
-pip install wandb==0.16.0
-```
-8. Install h5py:
+7. Install h5py:
 ```
 conda install -c anaconda h5py
 ```
-9. Install TorchMetrics:
+8. Install TorchMetrics:
 ```
 pip install torchmetrics
 ```
